@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@color/design_default_color_primary"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+
+
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/spacing" />
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/spacing" />
+
+            <TextView
+                android:id="@+id/tv_time_stamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/tgl_dummy"
+                android:textSize="16sp"
+
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Isi konten"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/spacing" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_sinopsis"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Deskripsi"-->
+<!--                android:textSize="16sp"-->
+<!--                android:textStyle="bold"-->
+
+<!--                />-->
+
+<!--            <Space-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="@dimen/spacing" />-->
+
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/isi"
+
+
+                android:textSize="14sp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/spacing" />
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/tv_body_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/isi"
+
+
+                android:textSize="14sp" />
+
+            <Button
+
+                android:id="@+id/btn_read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:text="read more" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+

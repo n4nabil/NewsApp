@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="webservice_url">https://newsapi.org</string>
+    <string name="api_key">39ef90bd75c340abaedb6f712e648b30</string>
+
+
+    <string name="navigation_title_top">World</string>
+    <string name="navigation_title_country">Country</string>
+    <string name="navigation_title_local">Local</string>
+    <string name="description_article_image">thumbnail</string>
+    <string name="title_activity_main_screen">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title">Korban Korona merajalela di Indonesia</string>
+    <string name="isi">Jakarta, CNN Indonesia.  Menteri Perhubungan Budi Karya Sumadi telah mengikuti rapat terbatas bersama Presiden Joko Widodo (Jokowi) yang digelar tertutup. Rapat dihelat melalui video conference dan sejumlah menteri Kabinet Indonesia Maju, Senin (27/4). terinfeksi virus corona (Covid-19) pada Maret lalu.</string>
+    <string name="tgl_dummy">7 Maret 2020</string>
+
+</resources>
