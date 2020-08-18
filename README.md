@@ -9,12 +9,11 @@ A collection of samples using the [Architecture Components](https://developer.an
 - [Room](https://developer.android.com/topic/libraries/architecture/room)
 - [ViewModels](https://developer.android.com/topic/libraries/architecture/viewmodel)
 - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
-- [RxJava 2](https://github.com/ReactiveX/RxJava)
 - [jsonapi-converter](https://github.com/jasminb/jsonapi-converter)
 - [Glide](https://github.com/bumptech/glide)
 - [Retrofit](https://github.com/square/retrofit) + [OkHttp](https://github.com/square/okhttp)
 - [AndroidX](https://developer.android.com/topic/libraries/support-library/androidx-rn)
-- [Data Binding](https://developer.android.com/topic/libraries/data-binding/)
+
 
 # Project Conventions
 ## MVVM Architecture 
